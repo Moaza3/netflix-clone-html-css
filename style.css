@@ -451,4 +451,108 @@ nav {
 
 .footer p{
     margin-top: 60px;
+    font-size: 16px;
+}
+
+.Contact{
+    align-self: flex-start;
+    color:rgba(255, 255, 255, 0.7);
+    margin-top: 60px;
+}
+
+.footerlinks{
+    align-self: flex-start;
+}
+
+.column{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.column a{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.column a:active{
+    color: red;
+}
+
+.Contact{
+    align-self: flex-start;
+    color:rgba(255, 255, 255, 0.7);
+    margin-top: 60px;
+}
+
+.footerlinks{
+    align-self: flex-start;
+}
+
+.footerbutton{
+    align-self: flex-start;
+}
+
+.footerbutton{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 14px;
+    margin-top: 30px;
+
+    background: rgba(22,22,22,0.7);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 4px;
+
+    align-self: flex-start;
+}
+
+.footerbutton img{
+    width: 16px;
+    height: 16px;
+}
+
+.footerbutton select{
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footerbutton option{
+    color: black;
+}
+
+.last{
+    align-self: flex-start;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.last div{
+    font-size: 14px;
+}
+
+.last p{
+    font-size: 13px;
+}
+
+
+.last{
+    align-self: flex-start;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.last div{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.last p{
+    font-size: 13px;
+    margin-bottom: 100px;
 }
